@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="default">
+
+    <plugin name="ros_link_attacher_plugin" filename="libgazebo_ros_link_attacher.so"/>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+   <pose frame=''>0 0 0.08 0 0 0</pose>
+      <uri>model://office</uri>
+    </include>
+
+
+    
+    <include>
+     <pose frame=''>8.20 2.64 0.08 0 0 -1.6</pose> 
+      <uri>model://dropbox</uri>
+    </include>
+
+
+
+    <include>
+     <pose frame=''>26.608 -3.569 0 0 0 0.934</pose> 
+      <uri>model://table</uri>
+    </include>
+
+    <!-- normal bot -->
+  <!-- <gui>
+    <camera name="user_camera">
+      <pose>4.93 3.72 2.81 0.00 0.55 -0.38</pose>
+    </camera>
+  </gui> -->
+
+
+  <!-- down facing -->
+  <!-- <gui>
+    <camera name="user_camera">
+      <pose>7.95 3.43 2.49 0.00 1.42 -1.65</pose>
+    </camera>
+  </gui> -->
+
+  <!-- sideways -->
+  <!-- <gui>
+    <camera name="user_camera">
+      <pose>6.12 3.56 1.09 0.00 -0.12 -0.37</pose>
+    </camera>
+  </gui> -->
+
+
+  <!-- backwards -->
+  <!-- <gui>
+    <camera name="user_camera">
+      <pose>7.94 4.16 0.99 0.00 -0.05 -1.67</pose>
+    </camera>
+  </gui> -->
+
+  <scene>
+   <shadows>0</shadows>
+  </scene>
+
+  </world>
+</sdf>
