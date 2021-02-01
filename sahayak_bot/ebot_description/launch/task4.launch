@@ -20,7 +20,7 @@
 
 
 
-<node pkg="ebot_gazebo" name="ebot_gazebo" type="task4_spawn_models.pyc" output="screen"/>
+<node pkg="ebot_gazebo" name="ebot_gazebo" type="task4_spawn_models.py" output="screen"/>
 
 		
 <!-- include moveit launch file and node for pick and place using perception feedback-->

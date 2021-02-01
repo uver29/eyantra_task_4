@@ -26,10 +26,10 @@
 
 
 
-    <include>
+    <!-- <include>
      <pose frame=''>26.608 -3.569 0 0 0 0.934</pose> 
       <uri>model://table</uri>
-    </include>
+    </include> -->
 
     <!-- normal bot -->
   <!-- <gui>
@@ -61,9 +61,9 @@
     </camera>
   </gui> -->
 
-  <scene>
+  <!-- <scene>
    <shadows>0</shadows>
-  </scene>
+  </scene> -->
 
   </world>
 </sdf>
